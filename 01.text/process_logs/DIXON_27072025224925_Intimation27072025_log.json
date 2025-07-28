@@ -1,0 +1,233 @@
+[
+  {
+    "timestamp": "2025-07-27T17:53:11.132961",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:30.552068",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:53:31.192344",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:46.218059",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:02:38.213971",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:03:01.711452",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:03:02.490093",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:03:18.789809",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:22.157443",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:34.987294",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:09:35.719203",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:42.137008",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:29.658635",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:43.668093",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:35:44.406707",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:57.229587",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:46:50.303107",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:02.776829",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:47:03.592326",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:12.014283",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:27.183503",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:38.689370",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:01:42.395094",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:51.132873",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:22:57.728958",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:09.991716",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:23:10.794958",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:19.274125",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  }
+]

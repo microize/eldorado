@@ -1,0 +1,1018 @@
+[
+  {
+    "timestamp": "2025-07-27T17:14:10.468157",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:47.260182",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:14:48.257933",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:15:06.964952",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:15:13.107833",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:15:13.113357",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:15:27.991491",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:16:52.114686",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:17:02.465398",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:17:02.471052",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:17:12.580565",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:17:12.588262",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:17:42.075290",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:17:42.082902",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:17:46.235455",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:17:46.241708",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:11.781517",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:08.329401",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:54:09.343510",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:26.468104",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:27.564231",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:27.569700",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:54:41.194260",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:56:04.535958",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:56:11.700432",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:56:11.705600",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:56:34.077235",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:56:34.085946",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:57:06.144535",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:57:06.151576",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:57:10.603054",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:57:10.611920",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:02:38.826214",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:15.891074",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:04:16.833474",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:28.988884",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:33.274777",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:33.279431",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:04:44.029939",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:06:19.886739",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:06:27.398611",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:06:27.407663",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:07:02.660548",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:07:02.667370",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:07:30.666243",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:07:30.674276",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:07:33.337444",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:07:33.347631",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:22.764942",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:52.700599",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:09:53.650026",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:10:10.368216",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:10:11.264855",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:10:11.269712",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:10:22.028823",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:11:46.536450",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:11:56.978575",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:11:56.984344",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:12:14.033798",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:12:14.039128",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:12:42.659135",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:12:42.666318",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:12:47.007443",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:12:47.018424",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:30.368350",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:47.911318",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:36:48.891766",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:37:11.082499",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:37:12.402138",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:37:12.407870",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:37:22.676878",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:38:58.879613",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:39:10.801862",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:39:10.812999",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:39:39.148703",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:39:39.159444",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:40:08.494907",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:40:08.506692",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:40:12.310107",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:40:12.319429",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:46:50.922215",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:59.436251",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:48:00.229819",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:16.697246",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:18.893916",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:18.901599",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:48:30.005096",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:50:08.748993",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:50:16.038571",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:50:16.044509",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:50:34.673049",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:50:34.679687",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:50:59.435758",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:50:59.443145",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:51:04.093196",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:51:04.100728",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:27.816062",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:05.604450",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:02:06.613592",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:26.632724",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:28.711710",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:28.718489",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:02:40.168720",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:04:23.679507",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:04:31.324866",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:04:31.331996",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:04:47.746796",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:04:47.755717",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:05:24.772121",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:05:24.778985",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:05:28.572871",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:05:28.582838",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:22:58.347243",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:34.971332",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:23:36.003091",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:50.184258",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:51.507634",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:51.513681",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:24:05.597827",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:25:23.805788",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:25:35.639000",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:25:35.658357",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:26:10.139329",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:26:10.147060",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:26:57.767322",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:26:57.775083",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:27:01.780821",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:27:01.791700",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  }
+]

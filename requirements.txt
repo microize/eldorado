@@ -1,0 +1,10 @@
+playwright
+bs4
+pandas
+PyPDF2
+pydub
+langchain-openai
+itables
+langchain
+pyaudio
+yt-dlp

@@ -1,0 +1,186 @@
+[
+  {
+    "timestamp": "2025-07-27T17:14:10.427788",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:45.890390",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:14:47.253490",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:11.758208",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:07.176226",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:54:08.320015",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:02:38.803993",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:14.736392",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:04:15.877693",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:22.742155",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:51.771288",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:09:52.688742",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:30.336212",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:46.805379",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:36:47.902753",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:46:50.899444",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:58.211962",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:47:59.427263",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:27.792437",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:04.253875",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:02:05.596348",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:22:58.325185",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:33.683279",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:23:34.959453",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  }
+]

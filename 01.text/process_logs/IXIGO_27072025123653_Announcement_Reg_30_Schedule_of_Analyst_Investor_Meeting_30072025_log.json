@@ -1,0 +1,415 @@
+[
+  {
+    "timestamp": "2025-07-27T13:14:06.342112",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:14:07.431303",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:14:08.182669",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:25:23.308126",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:25:24.633130",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:25:25.585302",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:31:58.672420",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:31:59.859928",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:32:00.473321",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:43:36.193113",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:43:36.578039",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:43:36.835749",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:48:35.641229",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:48:36.858569",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:48:37.777395",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:18.652512",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:19.843604",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:54:20.500631",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:56:29.926999",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:56:30.938819",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:56:31.592779",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:02:55.287762",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:02:56.550333",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T14:02:57.171577",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:14.581638",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:15.869925",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T14:16:17.039230",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:01.622120",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:05.923571",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T16:57:06.689847",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:09.894294",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:45.180629",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:14:45.878789",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:11.283321",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:06.323078",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:54:07.169048",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:02:38.351282",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:14.035020",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:04:14.726526",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:22.298677",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:50.910250",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:09:51.762622",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:29.812402",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:46.124428",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:36:46.798858",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:46:50.447884",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:57.424707",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:47:58.203452",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:27.326282",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:03.558275",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:02:04.244586",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:22:57.870081",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:32.920349",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:23:33.669003",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  }
+]

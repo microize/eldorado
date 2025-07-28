@@ -1,0 +1,2121 @@
+[
+  {
+    "timestamp": "2025-07-27T13:14:06.301532",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:14:06.355465",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:14:07.415540",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial -results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:14:08.209849",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:14:08.887081",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:14:08.898604",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:14:09.064372",
+    "step": "AudioSpeedUp",
+    "status": "Failed",
+    "extra": {
+      "error": "[Errno 2] No such file or directory: 'ffprobe'"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:25:23.272898",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:25:23.318802",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:25:24.622769",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:25:25.609962",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:25:26.337439",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:25:26.345193",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:25:43.724102",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:25:43.738640",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:26:02.889206",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:26:02.897444",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:26:05.216471",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:26:05.221435",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:26:06.178860",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:26:06.190820",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:26:07.796890",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:26:07.807372",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:31:58.627508",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:31:58.687143",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:31:59.847742",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:00.500038",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:01.243092",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:01.252711",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:32:19.727016",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:19.737450",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:32:32.152868",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:32.160801",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:44.441249",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:44.448918",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:59.303842",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:32:59.310418",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:33:07.369044",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:33:07.377344",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:43:36.151324",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:43:36.204346",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:43:36.566707",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:48:35.589069",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:48:35.654922",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:48:36.845230",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:48:37.798201",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:48:38.454996",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:48:38.462519",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:48:54.288202",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:48:54.298178",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:49:10.063265",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:49:10.073484",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:49:29.843733",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:49:29.851394",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:49:53.181372",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:49:53.193298",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:49:55.017673",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:49:55.025904",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:18.617803",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:18.666576",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:54:19.828057",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:20.526228",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:21.314649",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:21.319713",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:54:37.000654",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:37.015751",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:54:55.968169",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:55.978715",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:57.952518",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:57.965971",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:58.606367",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:58.617249",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:59.341285",
+    "step": "Transcription",
+    "status": "Failed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3",
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:54:59.361541",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:56:29.884735",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:56:29.935884",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:56:30.928023",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:56:31.613610",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:56:32.188300",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:56:32.199522",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:56:52.014676",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:56:52.030272",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T13:57:08.209233",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:57:08.220170",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:57:36.652632",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:57:36.667190",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:58:10.508875",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:58:10.517524",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:58:34.190782",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T13:58:34.205255",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:02:55.245289",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:02:55.302804",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T14:02:56.538774",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:02:57.190444",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:02:58.407977",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:02:58.414278",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T14:03:17.660820",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:03:17.672840",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T14:03:32.858741",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:03:32.872678",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:04:01.091002",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:04:01.102314",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:04:29.034064",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:04:29.046417",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:04:52.772916",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:04:52.782696",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:14.546017",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:14.591604",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T14:16:15.852435",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:17.060182",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:18.193445",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:18.200688",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T14:16:34.832864",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:34.843675",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T14:16:46.635185",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:16:46.646627",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:17:15.077057",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:17:15.086718",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:17:51.869240",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:17:51.888844",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:18:13.049676",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T14:18:13.063582",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:01.568463",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:01.638265",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T16:57:05.912478",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:06.731685",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:08.196401",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:08.203209",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T16:57:18.976128",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:18.982996",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T16:57:29.800790",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:29.811668",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:57.718663",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:57:57.725820",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:58:20.527065",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:58:20.535083",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:58:41.175477",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T16:58:41.186135",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:09.830654",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:29.727518",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:14:30.832255",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:48.277713",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:49.435087",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:49.442378",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:15:06.953791",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:15:28.001040",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:15:40.619179",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:15:40.630155",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:16:15.330570",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:16:15.338976",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:16:44.210285",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:16:44.218266",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:16:52.087587",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:16:52.099805",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:11.161887",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:46.224748",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:53:47.058965",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:09.363141",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:13.689667",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:13.697207",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:54:26.458999",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:41.203818",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:54:53.250574",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:53.261420",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:55:29.832424",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:55:29.839469",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:55:39.039275",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:55:39.047740",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:56:04.502154",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:56:04.515019",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:02:38.241510",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:03:18.797844",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:03:22.757873",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:16.854798",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:18.196588",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:18.203519",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:04:28.979949",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:44.040329",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:04:56.242983",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:56.253289",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:05:28.397531",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:05:28.405358",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:05:51.609121",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:05:51.616951",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:06:19.857852",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:06:19.871395",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:22.184786",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:42.147615",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:09:43.206988",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial -results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:53.673748",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:54.634085",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:54.641691",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:10:10.357027",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:10:22.036428",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:10:33.908973",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:10:33.919932",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:11:11.986430",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:11:11.994790",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:11:29.244424",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:11:29.254704",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:11:46.504921",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:11:46.514317",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:29.690948",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:57.237883",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:35:58.220187",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:49.025023",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:53.176624",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:53.183919",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:37:11.069398",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:37:22.686472",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:37:34.315859",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:37:34.328091",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:38:03.298734",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:38:03.309727",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:38:37.295843",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:38:37.304851",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:38:58.846883",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:38:58.859573",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:46:50.331923",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:12.028076",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:47:13.116492",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:00.360523",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:02.396686",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:02.403207",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:48:16.679904",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:30.012851",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:48:42.391468",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:42.404992",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:49:09.275616",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:49:09.283614",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:49:40.304858",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:49:40.313591",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:50:08.722006",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:50:08.731035",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:27.211989",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:51.143953",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:01:52.180241",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:07.729209",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:09.001482",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:09.009385",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:02:26.618312",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:40.180762",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:02:55.699454",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:55.714795",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:03:19.637422",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:03:19.644657",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:03:56.967815",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:03:56.979033",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:04:23.651399",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:04:23.660380",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:22:57.757848",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:19.285439",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:23:20.158884",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:36.149941",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/financial-results/10033962.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:37.416095",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "02.audio/audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:37.424242",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:23:50.169977",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:24:05.612550",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:24:18.500467",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3",
+        "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:24:18.514587",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:24:46.789206",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:24:46.800498",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:24:58.243346",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:24:58.251345",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:25:23.762004",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "02.audio/sped_audio_files/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:25:23.775233",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "01.text/transcripts/IDFCFIRSTB_27072025154451_IDFCFIRSTB_Earnings_Call_Audio_Replay_Q1FY26.txt"
+    }
+  }
+]

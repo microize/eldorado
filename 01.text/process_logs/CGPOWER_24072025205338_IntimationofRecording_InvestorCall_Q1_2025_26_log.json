@@ -1,0 +1,322 @@
+[
+  {
+    "timestamp": "2025-07-27T17:14:09.802744",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:10.474723",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:14:11.631386",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:29.718058",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:11.074442",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:11.789760",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:53:12.592958",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:30.543539",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:02:38.160160",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:02:38.834276",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:02:39.765957",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:03:01.702204",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:22.105688",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:22.773679",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:09:23.699995",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:34.974991",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:29.592941",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:30.381113",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:35:31.453276",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:43.659695",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:48.910806",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:49.018712",
+    "step": "AudioDownload",
+    "status": "Failed",
+    "extra": {
+      "error": "HTTPSConnectionPool(host='www.cgglobal.com', port=443): Max retries exceeded with url: /admin/uploads/10034347.mp3 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)')))"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:46:50.244838",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:46:50.930645",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:46:51.823730",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:02.770642",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:00.246015",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:48:00.354351",
+    "step": "AudioDownload",
+    "status": "Failed",
+    "extra": {
+      "error": "HTTPSConnectionPool(host='www.cgglobal.com', port=443): Max retries exceeded with url: /admin/uploads/10034347.mp3 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)')))"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:27.126154",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:27.823924",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:01:28.775483",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:38.683003",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:06.635485",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:07.722498",
+    "step": "AudioDownload",
+    "status": "Failed",
+    "extra": {
+      "error": "HTTPSConnectionPool(host='www.cgglobal.com', port=443): Max retries exceeded with url: /admin/uploads/10034347.mp3 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)')))"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:22:57.674882",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:22:58.356316",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:22:59.281680",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:09.983484",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:36.023494",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:36.143108",
+    "step": "AudioDownload",
+    "status": "Failed",
+    "extra": {
+      "error": "HTTPSConnectionPool(host='www.cgglobal.com', port=443): Max retries exceeded with url: /admin/uploads/10034347.mp3 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)')))"
+    }
+  }
+]

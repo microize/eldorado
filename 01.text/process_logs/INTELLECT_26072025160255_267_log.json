@@ -1,0 +1,262 @@
+[
+  {
+    "timestamp": "2025-07-27T17:14:09.864933",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:30.840582",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:14:33.157223",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:14:45.170854",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:11.255598",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:53:47.067495",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T17:53:47.949513",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T17:54:06.312870",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.youtube.com/embed/lo0xwyJOtSk?si=AKXlPgpO06mFnEAS"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:02:38.323252",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:03:22.770649",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:03:23.652179",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:04:14.025693",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:22.273215",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:43.221361",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:09:44.130218",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:09:50.901948",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:29.782995",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:35:58.230546",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:35:59.082486",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:36:46.117291",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.youtube.com/embed/lo0xwyJOtSk?si=AKXlPgpO06mFnEAS"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:46:50.416091",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:13.125770",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T18:47:13.892267",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T18:47:57.419066",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:27.301538",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:01:52.191594",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:01:53.213695",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:02:03.549734",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:22:57.843203",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:20.169883",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-27T19:23:24.068362",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-27T19:23:32.906896",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  }
+]
