@@ -8,3 +8,4 @@ itables
 langchain
 pyaudio
 yt-dlp
+python-dotenv
