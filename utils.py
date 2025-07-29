@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 from config import folders
 
 def log_step(pdf_file, step, status, extra=None):
-    log_file = os.path.join(folders["logs"], pdf_file.replace(".pdf", "_log.json"))
+    log_file = os.path.join(folders["process_logs"], pdf_file.replace(".pdf", "_log.json"))
     log_data = {"timestamp": datetime.now().isoformat(), "step": step, "status": status, "extra": extra or {}}
     if os.path.exists(log_file):
         with open(log_file, "r", encoding="utf-8") as f:

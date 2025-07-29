@@ -411,5 +411,183 @@
       "url": "www.ixigo.com",
       "audio_flag": false
     }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:19.776183",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:22.420905",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:19:22.670814",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:40.537027",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:43.434625",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:21:43.708788",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:30.175584",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:33.362743",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:33:33.607415",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:57.984139",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:01.474837",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:01.718749",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:56.743691",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:00.529354",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:00.841177",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:49.357305",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:52.467194",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:52.725585",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:20.400576",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:27.067481",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:41:28.445608",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:55.421468",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/IXIGO_27072025123653_Announcement_Reg_30_Schedule_of_Analyst_Investor_Meeting_30072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:23:33.259747",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:23:34.448776",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.ixigo.com",
+      "audio_flag": false
+    }
   }
 ]

@@ -1,0 +1,184 @@
+[
+  {
+    "timestamp": "2025-07-28T17:33:30.093109",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INDUSINDBK3_28072025225557_Audio_Recording_of_Earnings_Call.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:32.849875",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:33:33.099389",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:57.900745",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INDUSINDBK3_28072025225557_Audio_Recording_of_Earnings_Call.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:00.910035",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:01.168486",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:56.667147",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INDUSINDBK3_28072025225557_Audio_Recording_of_Earnings_Call.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:59.927655",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:00.210353",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:49.280472",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INDUSINDBK3_28072025225557_Audio_Recording_of_Earnings_Call.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:51.957922",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:52.211153",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:20.340781",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INDUSINDBK3_28072025225557_Audio_Recording_of_Earnings_Call.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:40:23.972222",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:40:25.281474",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.indusind.com/in/en/investors/investor-landing/investor-resources.html",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:40:38.490834",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter1/10034369.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:42:25.693759",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter1/10034369.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:42:25.702816",
+    "step": "AudioDownload",
+    "status": "Failed",
+    "extra": {
+      "error": "Invalid URL '/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter1/10034369.mp3': No scheme supplied. Perhaps you meant https:///content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter1/10034369.mp3?"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:55.321620",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INDUSINDBK3_28072025225557_Audio_Recording_of_Earnings_Call.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:22:40.749366",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:22:41.806720",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.indusind.com/in/en/investors/investor-landing/investor-resources.html",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:22:49.884421",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter1/10034369.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:24:34.896075",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter1/10034369.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:24:34.906028",
+    "step": "AudioDownload",
+    "status": "Failed",
+    "extra": {
+      "error": "Invalid URL '/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter1/10034369.mp3': No scheme supplied. Perhaps you meant https:///content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter1/10034369.mp3?"
+    }
+  }
+]

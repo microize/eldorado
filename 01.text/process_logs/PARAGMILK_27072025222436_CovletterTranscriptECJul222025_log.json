@@ -182,5 +182,183 @@
       "url": "www.paragmilkfoods.com",
       "audio_flag": false
     }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:20.230806",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:22.680968",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:19:22.973818",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:41.082469",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:43.718086",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:21:44.016495",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:30.773691",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:33.617050",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:33:34.156274",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:58.799048",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:01.727866",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:02.243174",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:57.386210",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:00.857988",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:01.295302",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:49.912818",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:52.735960",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:53.087573",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:21.031802",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:28.455553",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:41:29.654822",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:55.869415",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/PARAGMILK_27072025222436_CovletterTranscriptECJul222025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:23:34.468393",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:23:35.677977",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "www.paragmilkfoods.com",
+      "audio_flag": false
+    }
   }
 ]

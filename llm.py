@@ -7,8 +7,11 @@ import openai
 from bs4 import BeautifulSoup
 from config import OPENAI_API_KEY
 from utils import fetch_dynamic_html, fetch_with_curl, clean_url, log_step
+from dotenv import load_dotenv
 
-openai.api_key = OPENAI_API_KEY
+load_dotenv()
+
+
 
 class InvestorCallInfo(BaseModel):
     url: str = Field(description="URL of the investor/analyst call recording, or 'No link found'.")

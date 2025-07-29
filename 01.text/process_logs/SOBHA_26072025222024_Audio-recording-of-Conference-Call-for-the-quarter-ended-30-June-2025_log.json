@@ -1014,5 +1014,391 @@
     "extra": {
       "file": "01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
     }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:20.370396",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:23.491357",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:19:23.737283",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:41.289293",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:44.572694",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:21:44.829791",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:31.017475",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:34.726881",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:33:34.981660",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:59.073493",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:03.040061",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:03.291630",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:57.655052",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:01.833574",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:02.079563",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:50.170534",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:53.659575",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:53.902266",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:21.321252",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:31.242066",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:41:32.470441",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:42:25.731591",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:42:28.357537",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:42:28.367282",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:42:44.124751",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:46:22.982116",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:46:34.571964",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:46:34.587721",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:46:52.176446",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:46:52.188116",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:47:20.907662",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:47:20.918536",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:47:27.536458",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:47:27.548195",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:56.096764",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:23:37.669204",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:23:41.757352",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.sobha.com/wp -content/uploads/2025/07/10034429.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:25:58.163000",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.sobha.com/wp-content/uploads/2025/07/10034429.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:26:02.384537",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:26:02.391792",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:26:12.072244",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:30:20.664893",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:30:27.669254",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:30:27.676166",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:30:40.238728",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:30:40.248281",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:31:08.129255",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:31:08.140845",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:31:12.880230",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:31:12.892574",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/transcripts/SOBHA_26072025222024_Audio-recording-of-Conference-Call-for-the-quarter-ended-30-June-2025.txt"
+    }
   }
 ]

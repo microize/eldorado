@@ -229,5 +229,203 @@
         "Q1"
       ]
     }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:19.577922",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:21.400844",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:19:21.644117",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:40.327341",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:42.379603",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:21:42.654201",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:29.920287",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:32.046767",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:33:32.290662",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:57.687184",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:00.101850",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:00.365017",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:56.501253",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:59.100852",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:59.350389",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:49.117825",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:51.139277",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:51.383112",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:20.193649",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:39:33.805169",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:39:37.636406",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:40:20.432137",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:55.187020",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/DIXON_27072025224925_Intimation27072025.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:21:57.219387",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:21:58.070576",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "http://www.dixoninfo.com",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:22:38.155986",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
   }
 ]

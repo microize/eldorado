@@ -1,0 +1,388 @@
+[
+  {
+    "timestamp": "2025-07-28T17:19:19.669119",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:21.661373",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:19:21.904587",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:40.416266",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:42.664826",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:21:42.909450",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:30.018739",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:32.301447",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:33:32.574134",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:57.796319",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:00.375299",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:00.615636",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:56.595807",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:59.364298",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:59.614877",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:49.212456",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:51.393082",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:51.628216",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:20.277034",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:40:20.443857",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:40:22.555944",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.godigit.com/content/dam/godigit/general/investor -relations/investor -call-recordings/earnings -call-audio -recording -q1-fy-2025 -26.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:47.241643",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.godigit.com/content/dam/godigit/general/investor-relations/investor-call-recordings/earnings-call-audio-recording-q1-fy-2025-26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:48.183080",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:48.188769",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:42:06.160021",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:42:44.139219",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:42:58.345333",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part1.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part2.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:42:58.357215",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:43:15.530046",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:43:15.534029",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:43:51.652393",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:43:51.658680",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:44:11.096100",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:44:11.116313",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/transcripts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:55.239923",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:22:38.168485",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:22:39.455074",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.godigit.com/content/dam/godigit/general/investor -relations/investor -call-recordings/earnings -call-audio -recording -q1-fy-2025 -26.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:24:05.181176",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.godigit.com/content/dam/godigit/general/investor-relations/investor-call-recordings/earnings-call-audio-recording-q1-fy-2025-26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:24:05.942363",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:24:05.947424",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:24:20.852199",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:27:26.199608",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:27:34.261769",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part1.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part2.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:27:34.267473",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:28:06.328888",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:28:06.342233",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:28:33.507429",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:28:33.514784",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:28:52.794258",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:28:52.805229",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/transcripts/GODIGITGI_28072025215042_Audio_Call_Recording_Investor_Call_Q1FY2025-26.txt"
+    }
+  }
+]

@@ -30,7 +30,7 @@ def fetch_announcements():
     df = pd.DataFrame(all_data)
     return df[df["desc"].str.contains("Analysts/Institutional Investor Meet/Con. Call Updates", case=False, na=False)]
 
-def download_pdfs(df, output_folder=folders["pdf"]):
+def download_pdfs(df, output_folder=folders["nse_pdfs"]):
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     downloaded_files = []
     links = df["attchmntFile"].dropna().unique().tolist() if "attchmntFile" in df.columns else []
@@ -47,7 +47,7 @@ def download_pdfs(df, output_folder=folders["pdf"]):
             downloaded_files.append({"PDF File": link.split("/")[-1], "Status": f"Failed: {e}"})
     return pd.DataFrame(downloaded_files)
 
-def extract_text_from_pdfs(pdf_folder=folders["pdf"], raw_text_folder=folders["raw_texts"]):
+def extract_text_from_pdfs(pdf_folder=folders["nse_pdfs"], raw_text_folder=folders["raw_texts"]):
     extracted_files = []
     for pdf_file in os.listdir(pdf_folder):
         if not pdf_file.endswith(".pdf"): continue
@@ -98,7 +98,7 @@ def find_audio_links(raw_text_folder=folders["raw_texts"], user_keywords=["Q1"])
     show(df)
     return df
 
-def process_audio(audio_df, audio_folder=folders["audio"], sped_folder=folders["sped_audio"]):
+def process_audio(audio_df, audio_folder=folders["audio_files"], sped_folder=folders["sped_audio_files"]):
     results = []
     media_exts = (".mp3", ".wav", ".aac", ".m4a", ".ogg", ".mp4", ".webm", ".mov", ".avi", ".flv", ".wmv")
     for _, row in audio_df.iterrows():

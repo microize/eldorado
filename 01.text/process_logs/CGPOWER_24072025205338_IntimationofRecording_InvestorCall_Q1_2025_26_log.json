@@ -318,5 +318,231 @@
     "extra": {
       "error": "HTTPSConnectionPool(host='www.cgglobal.com', port=443): Max retries exceeded with url: /admin/uploads/10034347.mp3 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)')))"
     }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:19.484823",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:20.686100",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:19:21.143381",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:40.217544",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:41.720006",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:21:42.107104",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:29.802080",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:31.375674",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:33:31.774239",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:57.570007",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:59.398715",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:34:59.769021",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:56.379488",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:58.026277",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:58.823239",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:49.006525",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:50.520418",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:50.880929",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:20.108212",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:21.718464",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:38:23.268219",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:49.139457",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:47.124247",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:47.229465",
+    "step": "AudioDownload",
+    "status": "Failed",
+    "extra": {
+      "error": "HTTPSConnectionPool(host='www.cgglobal.com', port=443): Max retries exceeded with url: /admin/uploads/10034347.mp3 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)')))"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:54.953052",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/CGPOWER_24072025205338_IntimationofRecording_InvestorCall_Q1_2025_26.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:57.864473",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:20:58.946671",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.cgglobal.com/analyst_interaction",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:21:12.955975",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:24:04.089955",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.cgglobal.com/admin/uploads/10034347.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:24:05.168258",
+    "step": "AudioDownload",
+    "status": "Failed",
+    "extra": {
+      "error": "HTTPSConnectionPool(host='www.cgglobal.com', port=443): Max retries exceeded with url: /admin/uploads/10034347.mp3 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)')))"
+    }
   }
 ]

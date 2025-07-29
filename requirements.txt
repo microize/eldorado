@@ -9,3 +9,4 @@ langchain
 pyaudio
 yt-dlp
 python-dotenv
+python-dotenv

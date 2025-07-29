@@ -258,5 +258,231 @@
         "Q1"
       ]
     }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:19.736464",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:19:22.172826",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:19:22.406970",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:40.500519",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:21:43.185101",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:21:43.426399",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:30.132771",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:33:33.108773",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:33:33.354705",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:34:57.944476",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:01.177066",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:35:01.463719",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:35:56.706163",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:00.221026",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:00.515055",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:49.318239",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:36:52.220462",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:36:52.458262",
+    "step": "LangChainExtraction",
+    "status": "Failed",
+    "extra": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:38:20.369660",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:40:38.502124",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-28T17:40:39.641979",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-28T17:41:27.058702",
+    "step": "GPTDynamicScrape",
+    "status": "NoLinkFound",
+    "extra": {
+      "keywords": [
+        "Q1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:55.370306",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/INTELLECT_26072025160255_267.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:22:49.897236",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:22:52.106751",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://www.intellectdesign.com/video/q1-fy25-26-earnings-announcement/",
+      "audio_flag": false
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:23:33.252163",
+    "step": "GPTDynamicScrape",
+    "status": "FoundMediaLink",
+    "extra": {
+      "final_url": "https://www.youtube.com/embed/lo0xwyJOtSk?si=AKXlPgpO06mFnEAS"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:24:34.935138",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://www.youtube.com/embed/lo0xwyJOtSk?si=AKXlPgpO06mFnEAS"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:25:58.102319",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/audio_files/INTELLECT_26072025160255_267"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:25:58.111208",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:25:58.138668",
+    "step": "AudioSpeedUp",
+    "status": "Failed",
+    "extra": {
+      "error": "[Errno 2] No such file or directory: '/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/audio_files/INTELLECT_26072025160255_267'"
+    }
   }
 ]

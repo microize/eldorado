@@ -1,0 +1,129 @@
+[
+  {
+    "timestamp": "2025-07-29T02:20:54.911283",
+    "step": "PDFProcessing",
+    "status": "TextExtracted",
+    "extra": {
+      "raw_text": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/raw_texts/532783_29072025064432_intimation.txt"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:20:56.457747",
+    "step": "LangChainExtraction",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:20:57.857926",
+    "step": "LangChainExtraction",
+    "status": "Completed",
+    "extra": {
+      "url": "https://ltfoods.com/ltfoodscms/uploads/investors/concallaudiolink/concallaudiolink_1753720823.mp3",
+      "audio_flag": true
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:23:52.224877",
+    "step": "AudioDownload",
+    "status": "Started",
+    "extra": {
+      "url": "https://ltfoods.com/ltfoodscms/uploads/investors/concallaudiolink/concallaudiolink_1753720823.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:23:53.259986",
+    "step": "AudioDownload",
+    "status": "Completed",
+    "extra": {
+      "saved_to": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/audio_files/532783_29072025064432_intimation.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:23:53.264793",
+    "step": "AudioSpeedUp",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:24:04.076290",
+    "step": "AudioSpeedUp",
+    "status": "Completed",
+    "extra": {
+      "sped_audio": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:26:12.084898",
+    "step": "AudioSplit",
+    "status": "Started",
+    "extra": {}
+  },
+  {
+    "timestamp": "2025-07-29T02:26:23.734763",
+    "step": "AudioSplit",
+    "status": "Completed",
+    "extra": {
+      "chunks": [
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part1.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part2.mp3",
+        "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part3.mp3"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:26:23.743885",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:26:51.659248",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part1.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:26:51.665441",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:27:22.535715",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part2.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:27:22.548711",
+    "step": "Transcription",
+    "status": "Started",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:27:26.172751",
+    "step": "Transcription",
+    "status": "Completed",
+    "extra": {
+      "chunk": "/mnt/c/0.sripathi/project/ocean/eldorado/02.audio/sped_audio_files/532783_29072025064432_intimation_part3.mp3"
+    }
+  },
+  {
+    "timestamp": "2025-07-29T02:27:26.185142",
+    "step": "Transcription",
+    "status": "FinalTranscriptSaved",
+    "extra": {
+      "file": "/mnt/c/0.sripathi/project/ocean/eldorado/01.text/transcripts/532783_29072025064432_intimation.txt"
+    }
+  }
+]

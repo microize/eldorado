@@ -7,6 +7,9 @@ from data_processing import (
     process_audio,
     transcribe_all_audio,
 )
+from config import OPENAI_API_KEY
+
+print(f"OPENAI_API_KEY: {OPENAI_API_KEY}")
 
 # Interactive DataFrames
 init_notebook_mode(all_interactive=True)
